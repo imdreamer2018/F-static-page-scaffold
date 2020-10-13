@@ -7,6 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: rgb(227,230,233);
 }
 
 * {
@@ -17,4 +18,66 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(44,67,130);
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-text {
+  margin-left: 300px;
+  color: white;
+}
+.logo-button {
+  border: 1px solid rgb(56,170,31);
+  background-color: rgb(56,170,31);
+  color: white;
+  margin-left: 10px;
+  margin-top: 2px;
+  width: 50px;
+}
+
+.login-select {
+  margin-right: 300px;
+  background-color: rgb(44,67,130);
+  color: white;
+  outline: none;
+  border: none;
+}
+
+
+.main-info {
+  margin-left: 260px;
+}
+
+.main-pic {
+  margin-left: 260px;
+  margin-right: 260px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.main-pic-info {
+  padding-top: 30px;
+  width: 650px;
+  background-color: white;
+}
+
+.main-pic-info button {
+  margin-top: 130px;
+  margin-bottom: 20px;
+  width: 50px;
+  height: 30px;
 }
